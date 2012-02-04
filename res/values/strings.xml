@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello sc-android!</string>
+    <string name="app_name">sc-android</string>
+    <string name="login_title">登录</string>
+</resources>
