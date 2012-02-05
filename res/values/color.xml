@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#000000</color> 
+	 <color name="white">#ffffff</color> 
+	 <color name="gray">#bbbbbb</color>
+	 <color name="gray_light">#cdcdcd</color>
+	 <color name="btn_tx_color">@color/white</color>
+	 <color name="common_tx_color">@color/black</color>
+	 <color name="bg">@color/white</color>
+	 <color name="top_tx_color">@color/white</color>
+	 <color name="red">#ff0000</color>
+	 <color name="warn_tx_color">@color/red</color>
+	 <color name="transparent">#00000000</color>
+	 <color name="orange">#FF6600</color>
+	 <color name="text_click">#21537B</color>
+	 <color name="blue">#00274f</color>
+	 <color name="green">#006600</color>
+	 <color name="tx_highter">@color/orange</color>
+	 <color name="higher">@color/orange</color>
+	 <color name="list_bg_s">#fffdea</color>
+	 <color name="stroke">#d0d0d0</color>
+    
+</resources>

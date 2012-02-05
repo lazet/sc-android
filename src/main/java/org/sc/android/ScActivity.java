@@ -1,6 +1,7 @@
 package org.sc.android;
 
 import roboguice.activity.RoboActivity;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;

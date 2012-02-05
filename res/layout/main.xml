@@ -2,16 +2,131 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:gravity="top|center"
     android:orientation="vertical" >
 
-<TextView
-	android:id="@+id/logintitle"
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:background="#ff0099cc"
-	android:text="@string/login_title"
-	android:textSize="20sp"
-	android:gravity="center" />
+    <TextView
+        android:id="@+id/logintitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0099cc"
+        android:gravity="center"
+        android:text="@string/login_title"
+        android:textSize="20sp" />
 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_box_white"
+        android:orientation="vertical"
+        android:layout_marginTop="3dip" 
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip">
 
+        <LinearLayout
+		    		android:layout_width="fill_parent"
+		    		android:layout_height="40dip"
+		    		android:gravity="center_vertical"
+		    		>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/store_number_label" 
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="3dip"/>
+
+            <EditText
+                android:layout_width="200dip"
+                android:layout_height="50dip"
+                android:hint="@string/store_number" 
+				android:background="@null"
+             	/>
+
+        </LinearLayout>
+        <TextView style="@style/Line"/>
+		<LinearLayout
+		    		android:layout_width="fill_parent"
+		    		android:layout_height="40dip"
+		    		android:gravity="center_vertical"
+		    		>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name_label"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="3dip" />
+
+            <EditText
+                android:layout_width="200dip"
+                android:layout_height="50dip"
+                android:hint="@string/user_name" 
+				android:background="@null"
+             	/>
+
+        </LinearLayout>
+        <TextView style="@style/Line"/>
+        <LinearLayout
+		    		android:layout_width="fill_parent"
+		    		android:layout_height="40dip"
+		    		android:gravity="center_vertical"
+		    		>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_password_label" 
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="3dip" />
+
+            <EditText
+                android:layout_width="200dip"
+                android:layout_height="50dip"
+                android:hint="@string/user_password" 
+				android:background="@null"
+             	/>
+
+        </LinearLayout>
+    </LinearLayout>        
+        
+        <LinearLayout
+		    		android:layout_width="fill_parent"
+		    		android:layout_height="40dip"
+		    		android:gravity="center_vertical"
+		    		>
+
+            <CheckBox
+                android:id="@+id/remember_store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:checked="true"
+                android:hint="@string/remember_store" />
+            <CheckBox
+                android:id="@+id/remember_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remember_user"
+                android:checked="true" />
+
+        </LinearLayout>
+
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:gravity="center">
+	    <Button android:id="@+id/login"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/login_btn_label"
+	        android:layout_marginLeft="10dip"
+            android:layout_marginRight="30dip" />
+	    <Button android:id="@+id/forget_pwd"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/forget_pwd_btn_label"
+	        android:layout_marginLeft="30dip"
+            android:layout_marginRight="10dip" />
+	</LinearLayout>
 </LinearLayout>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="hello">Hello sc-android!</string>
-    <string name="app_name">sc-android</string>
+    <string name="app_name">指上菜谱</string>
     <string name="login_title">登录</string>
+    <string name="user_name">请输入用户名</string>
+    <string name="store_number">请输入门店编号</string>
+    <string name="user_password">请输入密码</string>
+    <string name="remember_user">记住用户名</string>
+    <string name="remember_store">记住门店</string>
+    <string name="user_password_label">密码：</string>
+    <string name="user_name_label">用户：</string>
+    <string name="store_number_label">门店：</string>
+    <string name="forget_pwd_btn_label">忘记密码</string>
+    <string name="login_btn_label">登录</string>
 </resources>
